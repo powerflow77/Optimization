@@ -38,5 +38,4 @@ def ybus(buses, lines):
     for b in busset:
         Ybus[b, b] += buses[b].Gs + 1j * buses[b].Bs
     
-
     return Ybus, yff, yft, ytf, ytt
