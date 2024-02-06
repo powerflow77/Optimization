@@ -2,6 +2,9 @@ from dataclasses import dataclass, field
 from typing import List
 
 
+# 그냥 클래스 만든 거임.
+# 근데 dataclass라는 특수한 형태로 만들고 
+# 전부 다 묶어서 사용할 때는 attribute 불러오는 방식으로 사용.
 @dataclass
 class Bus:
    bindex: int
